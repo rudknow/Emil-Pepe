@@ -1,0 +1,102 @@
+#I want a program that can do mutliple things at one time.
+#This program will be called Emil Pepe (Multi-Lingual Python Program)
+#The first time it will be published is on my website and will act as a bot.
+#Hello World prompt will be an introduction. 
+#However, I want there to be simulated conversation
+
+print("Hello, How are you?")
+input("")
+print("Wie Gehts")
+input("")
+print ("Alright. Now that we got that out of the way...")
+print ("What's your name?")
+a = input ("")
+print ("Hello, " + a, "Wo Kommst du?")
+b = input ("")
+print ("That's cool." + b, "I've never been to " +b, "My name is Emil Pepe, your Multi-lingual python program...")
+print ("Ich komme auf ein computer.")
+print ("Are you ready to get started with maths?")
+c = input ("")
+print ("Awesome. " + c, "To be honest I cannot respond directly because my programmer is a novice...")
+
+#Enter in the math program for addition and try to 
+#compile a lesson for the linear function.
+
+a = True
+b = False
+# or is True is 1 side is True
+c = True or False
+# and is True if both sides are True
+d = False and True
+# not negates the boolean
+e = not ((c and d) or True)
+x = 10
+print ('Let us get started with some arithmetic, true or false questions.')
+print ('Is that ok?')
+input ('')
+print (x)
+f = (x > 5)
+print ('f = (x > 5)')
+input ('')
+print (f)
+g = (x <= 12)
+print ('g = (x <= 12)')
+input ('')
+print (g)
+h = ( x == 9)
+print ('h = ( x = 9)')
+input ('')
+print (h)
+
+#End of first math program...
+#Now, tie in another conversation in french, then lead into 
+#logic of math through spanish...
+
+print("Bon Jour")
+input("")
+print ("vous souhaitez vous initier aux maths?")
+input ("")
+print ("Bon, Nous avons une tableu de verite.")
+print ("On y va?")
+i = input ("")
+print (i, "Oui? Nous pouvons aller")
+#Truth Table
+
+def negation(p):
+    return not p
+
+print ('p    q')
+for p in [True, False]:
+    q = negation(p)
+    print(p,q)
+print ('Does this truth table make sense?')
+input ("")
+#if yes, then proceed. If no, than any other answer would be "the answer", 
+#then what part don't you understand?
+#This is for future programming when I can compile data sets
+
+#NExt is Spanish explanation of the linear function; the parent function
+print("Hola")
+input("")
+print ("Nosotros podemos estudiar el funcion lineal principal. OK?")
+input("")
+print ("El Concepcion del funcion lineal principal es esto;")
+print ("ready?")
+input("")
+print ("Bueno")
+print ("Por cada x, f de x es iqual a x.")
+print ("Todo Bueno?")
+input("")
+print ("El funcion es a esto: f(x)=x")
+print ("Que es el defincion de f(x)=x?")
+input("")
+print ("Si tu dijiste: por cada x, f de x es iqual a x. Bueno.")
+print ("We have finished the spanish portion...")
+
+#Try to have responses mapped out with object orientation and 
+#input dependencies
+
+print("Piyali")
+input("")
+print("Gengi Desu Ka")
+input("")
